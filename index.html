@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6</title>
+</head>
+<body>
+    <h1>JavaScript Lab Six Results</h1>
+
+    <script>
+        // TASK 1: Print Variables using console.log()
+        // Declare a variable 'myNumber' and assign it the value 10
+        let myNumber = 10;
+        // Declare a variable 'myString' and assign it the string "Hello, JavaScript!"
+        let myString = "Hello, JavaScript!";
+
+        // Print the values of 'myNumber' and 'myString' to the console
+        console.log("myNumber:", myNumber);
+        console.log("myString:", myString);
+
+        // TASK 2:
+        // Loop to iterate from 1 to 10
+        let i;
+        for (i = 0; i <= 10; i++) {
+            // Print the current value of 'i' to the console
+            console.log("Current Value is:", i);
+        }
+
+        // Loop to calculate and print the first 5 multiples of 3
+        for (let i = 1; i <= 5; i++) {
+            // Calculate the current multiple of 3
+            let multiple = 3 * i;
+            // Print the current multiple to the console
+            console.log(i + "th multiple of 3 is:", multiple);
+        }
+
+        // TASK 3:
+        // Function to return the sum of two numbers
+        function addNumbers(num1, num2) {
+            // Add the two numbers and return the result
+            return num1 + num2;
+        }
+
+        // Call the 'addNumbers' function with arguments 5 and 7, and store the result in 'sum'
+        let sum = addNumbers(5, 7);
+        // Print the sum to the console
+        console.log("The Sum of 5 and 7 is:", sum);
+
+        // Function to return the product of two numbers
+        function multiplyNumbers(num1, num2) {
+            // Multiply the two numbers and return the result
+            return num1 * num2;
+        }
+
+        // Call the 'multiplyNumbers' function with arguments 3 and 12, and store the result in 'product'
+        let product = multiplyNumbers(3, 12);
+        // Print the product to the console
+        console.log("The Product of 3 and 12 is:", product);
+    </script>
+</body>
+</html>
